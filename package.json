@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
-    "name": "@sodiumlabs/plume-url",
+    "name": "@voctal/plume-url",
     "version": "1.0.7",
     "description": "The official Plume URL wrapper",
     "keywords": [
@@ -12,19 +12,18 @@
         "plume-url",
         "plumeapi",
         "plumeurl",
-        "sodium",
-        "sodiumlabs",
+        "voctal",
         "wrapper"
     ],
-    "homepage": "https://github.com/sodium-labs/plume-url.js#readme",
+    "homepage": "https://github.com/voctal/plume-url.js",
     "bugs": {
-        "url": "https://github.com/sodium-labs/plume-url.js/issues"
+        "url": "https://github.com/voctal/plume-url.js/issues"
     },
     "license": "MIT",
-    "author": "sodiumlabs",
+    "author": "voctal",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sodium-labs/plume-url.js.git"
+        "url": "git+https://github.com/voctal/plume-url.js.git"
     },
     "files": [
         "dist"
