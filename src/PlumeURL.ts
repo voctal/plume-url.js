@@ -1,4 +1,4 @@
-import PlumeURLREST, { PlumeURLRESTOptions } from "./PlumeURLREST";
+import { PlumeURLREST, PlumeURLRESTOptions } from "./rest";
 import { SearchURLOptions, SearchURLResults, URLData, CreateURLOptions, EditURLOptions } from "./routes";
 import { queryfy } from "./utils";
 

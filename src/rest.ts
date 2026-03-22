@@ -1,4 +1,5 @@
-import PlumeURLError from "./PlumeURLError";
+import { version } from "./constants";
+import { PlumeURLError } from "./errors";
 
 export interface PlumeURLRESTOptions {
     /**
@@ -8,9 +9,9 @@ export interface PlumeURLRESTOptions {
     userAgent?: string;
 }
 
-export default class PlumeURLREST {
+export class PlumeURLREST {
     public static readonly baseURL: string = "https://url.voctal.dev/api";
-    public static readonly defaultUserAgent: string = "plume-url.js";
+    public static readonly defaultUserAgent: string = `plume-url.js/${version}`;
 
     public constructor(public readonly options: PlumeURLRESTOptions = {}) {}
 
