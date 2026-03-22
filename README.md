@@ -3,32 +3,32 @@
     <h1>Plume URL.js</h1>
     <br />
     <p>
-        <a href="https://discord.gg/8PDXWSHH7k"><img src="https://img.shields.io/discord/1336303640725553213?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/plume-url"><img src="https://img.shields.io/npm/v/@sodiumlabs/plume-url.svg?maxAge=3600" alt="npm version" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/plume-url"><img src="https://img.shields.io/npm/dt/@sodiumlabs/plume-url.svg?maxAge=3600" alt="npm downloads" /></a>
-        <a href="https://github.com/sodium-labs/plume-url.js/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sodium-labs/plume-url.js?logo=github&logoColor=ffffff" /></a>
+        <a href="https://voctal.dev/discord"><img src="https://img.shields.io/discord/1336303640725553213?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/plume-url"><img src="https://img.shields.io/npm/v/@voctal/plume-url.svg?maxAge=3600" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/plume-url"><img src="https://img.shields.io/npm/dt/@voctal/plume-url.svg?maxAge=3600" alt="npm downloads" /></a>
+        <a href="https://github.com/voctal/plume-url.js/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/voctal/plume-url.js?logo=github&logoColor=ffffff" /></a>
     </p>
 </div>
 
 # About
 
-`@sodiumlabs/plume-url` is a module that allows you to easily use Plume URL. See the [module docs](https://docs.sodiumlabs.xyz/docs/packages/plume-url/stable), and the [API docs](https://url.sodiumlabs.xyz/docs) to understand how to use it.
+`@voctal/plume-url` is a module that allows you to easily use Plume URL. See the [module docs](https://docs.voctal.dev/docs/packages/plume-url/stable), and the [API docs](https://url.voctal.dev/docs) to understand how to use it.
 
 # Installation
 
 ```sh
-npm install @sodiumlabs/plume-url
+npm install @voctal/plume-url
 ```
 
 # Links
 
-- [Plume URL](https://url.sodiumlabs.xyz)
-- [Plume URL documentation](https://url.sodiumlabs.xyz/docs)
-- [Module documentation](https://docs.sodiumlabs.xyz/docs/packages/plume-url/stable)
-- [Discord server](https://discord.gg/8PDXWSHH7k)
-- [GitHub](https://github.com/sodium-labs/plume-url.js)
-- [npm](https://npmjs.com/package/@sodiumlabs/plume-url)
-- [Sodium Labs](https://sodiumlabs.xyz)
+- [Plume URL](https://url.voctal.dev)
+- [Plume URL documentation](https://url.voctal.dev/docs)
+- [Module documentation](https://docs.voctal.dev/docs/packages/plume-url/stable)
+- [Discord server](https://voctal.dev/discord)
+- [GitHub](https://github.com/voctal/plume-url.js)
+- [npm](https://npmjs.com/package/@voctal/plume-url)
+- [Voctal](https://voctal.dev)
 
 # Examples
 
@@ -36,7 +36,7 @@ If you are developing a Discord bot using `discord.js`, here is how to use Plume
 
 ```js
 const { Client } = require("discord.js");
-const { PlumeURL } = require("@sodiumlabs/plume-url");
+const { PlumeURL } = require("@voctal/plume-url");
 
 // Your discord.js client
 const client = new Client({
@@ -70,15 +70,15 @@ console.log(urls);
 Plume URL provides two main resources for documentation:
 
 - **API Reference:**  
-   [Plume URL Documentation](https://url.sodiumlabs.xyz/docs)  
+   [Plume URL Documentation](https://url.voctal.dev/docs)  
    This documentation covers all available endpoints, types, and detailed comments for the API.
 
 - **Module Reference:**  
-   [Module Documentation](https://docs.sodiumlabs.xyz/docs/packages/plume-url/stable)  
-   This documentation explains how to use the `@sodiumlabs/plume-url` npm package, with all available methods and types.
+   [Module Documentation](https://docs.voctal.dev/docs/packages/plume-url/stable)  
+   This documentation explains how to use the `@voctal/plume-url` npm package, with all available methods and types.
 
-For most use cases, you'll want to refer to the [`PlumeURL` class page](https://docs.sodiumlabs.xyz/docs/packages/plume-url/stable/PlumeURL:Class), which lists all available methods for interacting with the API through this module.
+For most use cases, you'll want to refer to the [`PlumeURL` class page](https://docs.voctal.dev/docs/packages/plume-url/stable/PlumeURL:Class), which lists all available methods for interacting with the API through this module.
 
 # Help
 
-If you don't understand something in the documentation, are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [Discord Server](https://discord.gg/8PDXWSHH7k).
+If you don't understand something in the documentation, are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [Discord Server](https://voctal.dev/discord).

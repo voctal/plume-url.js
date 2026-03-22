@@ -9,7 +9,7 @@ export interface PlumeURLRESTOptions {
 }
 
 export default class PlumeURLREST {
-    public static readonly baseURL: string = "https://url.sodiumlabs.xyz/api";
+    public static readonly baseURL: string = "https://url.voctal.dev/api";
     public static readonly defaultUserAgent: string = "plume-url.js";
 
     public constructor(public readonly options: PlumeURLRESTOptions = {}) {}
