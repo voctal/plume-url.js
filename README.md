@@ -1,7 +1,5 @@
 <div align="center">
-<br />
     <h1>Plume URL.js</h1>
-    <br />
     <p>
         <a href="https://voctal.dev/discord"><img src="https://img.shields.io/discord/1336303640725553213?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
         <a href="https://www.npmjs.com/package/@voctal/plume-url"><img src="https://img.shields.io/npm/v/@voctal/plume-url.svg?maxAge=3600" alt="npm version" /></a>
@@ -10,11 +8,11 @@
     </p>
 </div>
 
-# About
+## About
 
 `@voctal/plume-url` is a module that allows you to easily use Plume URL. See the [module docs](https://docs.voctal.dev/docs/packages/plume-url/stable), and the [API docs](https://url.voctal.dev/docs) to understand how to use it.
 
-# Installation
+## Installation
 
 Node.js 22 or newer is required.
 
@@ -22,17 +20,7 @@ Node.js 22 or newer is required.
 npm install @voctal/plume-url
 ```
 
-# Links
-
-- [Plume URL](https://url.voctal.dev)
-- [Plume URL documentation](https://url.voctal.dev/docs)
-- [Module documentation](https://docs.voctal.dev/docs/packages/plume-url/stable)
-- [Discord server](https://voctal.dev/discord)
-- [GitHub](https://github.com/voctal/plume-url.js)
-- [npm](https://npmjs.com/package/@voctal/plume-url)
-- [Voctal](https://voctal.dev)
-
-# Examples
+## Example usage
 
 If you are developing a Discord bot using `discord.js`, here is how to use Plume URL:
 
@@ -67,7 +55,7 @@ const urls = await client.plumeURL.search({ limit: 5, customId: userId });
 console.log(urls);
 ```
 
-# Documentation
+## Documentation
 
 Plume URL provides two main resources for documentation:
 
@@ -81,6 +69,16 @@ Plume URL provides two main resources for documentation:
 
 For most use cases, you'll want to refer to the [`PlumeURL` class page](https://docs.voctal.dev/docs/packages/plume-url/stable/PlumeURL:Class), which lists all available methods for interacting with the API through this module.
 
-# Help
+## Links
 
-If you don't understand something in the documentation, are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [Discord Server](https://voctal.dev/discord).
+- [Plume URL](https://url.voctal.dev)
+- [Plume URL documentation](https://url.voctal.dev/docs)
+- [Module documentation](https://docs.voctal.dev/docs/packages/plume-url/stable)
+- [Discord server](https://voctal.dev/discord)
+- [GitHub](https://github.com/voctal/plume-url.js)
+- [npm](https://npmjs.com/package/@voctal/plume-url)
+- [Voctal](https://voctal.dev)
+
+## Help
+
+Need help with the module? Ask on our [support server!](https://voctal.dev/discord)
